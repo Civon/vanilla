@@ -17,3 +17,13 @@
     display: inline-block !important;
     padding-left: 5px;
 }
+
+.DataList .Item .Meta-Discussion {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.DataList .Item .Meta-Discussion .ViewCount{
+    display: inherit;
+}
