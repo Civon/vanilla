@@ -74,6 +74,20 @@ $this->fireEvent('BeforeDiscussionDisplay');
 $this->fireEvent('AfterDiscussionMeta'); // DEPRECATED
 
         ?>
+                <!-- Fb Share -->
+                <!-- Todo: Add style -->
+                <span class="MItem MCount FbShareCount">
+
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.12 0H0.88C0.39325 0 0 0.39325 0 0.88V21.12C0 21.6068 0.39325 22 0.88 22H21.12C21.6068 22 22 21.6068 22 21.12V0.88C22 0.39325 21.6068 0 21.12 0ZM18.579 6.42125H16.8218C15.444 6.42125 15.1773 7.07575 15.1773 8.03825V10.1585H18.4662L18.0373 13.4777H15.1773V22H11.748V13.4805H8.87975V10.1585H11.748V7.711C11.748 4.87025 13.4832 3.322 16.0187 3.322C17.2342 3.322 18.2765 3.41275 18.5818 3.454V6.42125H18.579Z" fill="#FF3559"/>
+                    </svg>
+                    <?php
+                    //? NO API yet
+                    // echo ($Share);
+                    echo (t('Share'));
+                    ?>
+                </span>
+
                 <span class="MItem MCount ViewCount">
                     <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.119 0.25C12.6369 0.25 13.1335 0.478273 13.4996 0.884602C13.8658 1.29093 14.0715 1.84203 14.0715 2.41667V19.75L7.23786 16.5L0.404221 19.75V2.41667C0.404221 1.84203 0.609927 1.29093 0.976086 0.884602C1.34224 0.478273 1.83886 0.25 2.35669 0.25H12.119ZM6.26163 4.58333V6.75H4.30916V8.91667H6.26163V11.0833H8.2141V8.91667H10.1666V6.75H8.2141V4.58333H6.26163Z" fill="#FF3559"/>
